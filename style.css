@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rebeccapurple;
+}
+
+#actor-page img {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    background-color: rebeccapurple;
+    text-align: center;
+    /* display: none; */
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    color: white;
+    top: -1px;
+    bottom: -1px;
+}
+
+#lol {
+    background-color: rgb(224, 82, 82);
+    padding: 23px;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+#showMovies {
+    padding: 10px;
+    color: rgb(230, 216, 216);
+    background-color: rgb(18, 75, 6);
+    font-weight: bold;
+}
+
+#showMovies:hover {
+    background-color: rgb(38, 59, 34);
+    color: white;
+}
+
+#searchButton {
+    color: white;
+    background: rgb(224, 82, 82);
+    border: 0;
+    margin-left: 3px;
+}
+
+#input {
+    border: 0;
+    padding: 6px;
+    height: 20px;
+    width: 200px;
+    padding: 1px;
+}
+
+.search-page {
+    display: flex;
+}
+
+#movie-page {
+    display: flex;
+    justify-content: center;
+}
+
+#movie-page img {
+    height: 250px;
+    width: 200px;
+}
+
+#lol2 {
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backbutton {
+    width: 20px;
+    height: auto;
+}
+
+#lol2 img {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    #lol2 {
+        padding: 10px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #lol2 img {
+        height: 150px;
+        width: 100px;
+        padding: 20px;
+    }
+    .backbutton {
+        width: 20px;
+        height: auto;
+    }
+}
