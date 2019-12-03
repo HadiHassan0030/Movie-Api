@@ -39,11 +39,7 @@ function myFunction() {
     console.log(history.state)
 
 
-    let back = document.getElementById('just');
 
-    back.addEventListener('click', () => {
-        console.log('s')
-    })
 
 
 
@@ -229,6 +225,29 @@ function myFunction() {
 
 
             }
+
+            let back = document.getElementById('just');
+
+            back.addEventListener('click', () => {
+                actorPage.classList.remove('active');
+                actorPage.style.display = 'none';
+
+
+                movieInfo.classList.remove('active');
+                movieInfo.style.display = 'none';
+
+
+                moviePage.classList.remove('active');
+                moviePage.style.display = 'none';
+
+
+                searchPage.classList.add('active');
+                searchPage.style.display = 'inline';
+
+
+
+
+            })
 
 
 
