@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.themoviedb.org/3/search/person?api_key=fa78aa4e43bd03b2ef17cff7e63aca09&query=jamie"> -->
+
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 
@@ -36,8 +39,13 @@
 
 
         <div class='page' id="actor-page">
-            <button id="just" style="height: 30px;border: none;background-color: coral;color: white; font: bolder; justify-content: center;">Back To Search</button>
 
+
+            <h1>actors</h1>
+            <div class="searchIcon">
+                <img id="just" onclick="hello()" src="searchIcon.svg" alt="" style="width:50px; display: block;;justify-content: center;align-self: center; margin: 12px; border-radius:50%  ;background-color: aliceblue; padding: 10px;">
+
+            </div>
 
 
         </div>
@@ -45,8 +53,10 @@
         <div class='page' id="movie-page">
 
 
-            <button id="just" style="height: 30px;border: none;background-color: coral;color: white; font: bolder; justify-content: center;">Back To Search</button>
+            <div class="searchIcon">
+                <img id="just" onclick="hello()" src="searchIcon.svg" alt="" style="width:50px; display: block;;justify-content: center;align-self: center; margin: 12px; border-radius:50%  ;background-color: aliceblue; padding: 10px;">
 
+            </div>
 
 
 
@@ -54,10 +64,13 @@
 
         </div>
 
+
         <div class='page' id="movie-info">
-            <button id="just" style="height: 30px;border: none;background-color: coral;color: white; font: bolder; justify-content: center;">Back To Search</button>
+            <h3>Movies Info</h3>
+            <div class="searchIcon">
+                <img id="just" onclick="hello()" src="searchIcon.svg" alt="" style="width:50px; display: block;;justify-content: center;align-self: center; margin: 12px; border-radius:50%  ;background-color: aliceblue; padding: 10px;">
 
-
+            </div>
 
         </div>
 
