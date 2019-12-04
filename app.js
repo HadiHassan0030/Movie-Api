@@ -177,18 +177,6 @@ function myFunction() {
                                 document.getElementById('movie-info').appendChild(container).appendChild(overview);
                                 document.getElementById('movie-info').appendChild(container).appendChild(releaseDate);
 
-                                // type.textContent = "Type: " + data.results[di.id].known_for[d].media_type;
-                                // overview.textContent = "Discription: " + data.results[di.id].known_for[d].overview;
-                                // movieName.textContent = "Name: " + data.results[di.id].known_for[d].name;
-                                // rating.textContent = "Rating: " + data.results[di.id].known_for[d].vote_average;
-                                // releaseDate.textContent = "Release Date: " + data.results[di.id].known_for[d].release_date;
-
-                                // // document.getElementById('movie-info').appendChild(movieCard2).appendChild(movieImg)
-                                // document.getElementById('movie-info').appendChild(movieCard).appendChild(type)
-                                // document.getElementById('movie-info').appendChild(movieCard).appendChild(movieName)
-                                // document.getElementById('movie-info').appendChild(movieCard).appendChild(overview)
-                                // document.getElementById('movie-info').appendChild(movieCard).appendChild(rating)
-                                // document.getElementById('movie-info').appendChild(movieCard).appendChild(releaseDate)
 
 
 
@@ -227,10 +215,8 @@ function myFunction() {
 
 
 
-                // console.log(poster + data.results[i].profile_path);
             }
 
-            // console.log(data.results)
 
 
 
@@ -239,163 +225,6 @@ function myFunction() {
 
 
 
-
-
-
-
-            // let actorPic = poster + data.results[0].profile_path;
-            // let img = document.createElement('img');
-            // img.className = 'po'
-
-            // img.src = actorPic;
-            // document.getElementById('lol').appendChild(img)
-
-            // let actorName = data.results[0].name;
-            // let h3 = document.createElement('h3');
-            // h3.textContent = actorName;
-            // document.getElementById('lol').appendChild(h3)
-            //     // h3.addEventListener('click', () => {
-            //     //     console.log('dk')
-            //     //     history.go();
-            //     // })
-
-
-            // let h = document.createElement('h3');
-            // h.textContent = actorName + ' Movies:';
-            // document.getElementById('lol2').appendChild(h)
-
-
-            // // let twoh3 = document.createElement('h3');
-            // // twoh3.textContent = actorName + "'s movies!";
-            // // twoh3.id = 'dk'
-            // // document.getElementById('movie-page').appendChild(twoh3)
-
-
-
-            // let button = document.createElement('button');
-            // button.id = 'showMovies'
-            // button.textContent = 'SHOW MOVIES';
-            // document.getElementById('lol').appendChild(button)
-
-
-
-
-
-
-
-
-            // console.log(data.results[0].name);
-
-
-
-
-
-
-
-            // // window.addEventListener('popstate', e => {
-            // //     selctedpage(e.state.id);
-            // //     console.log('pod')
-            // // })
-
-
-
-
-            // actorPage.classList.remove('active');
-            // movieInfo.style.display = 'none'
-            // searchPage.style.display = 'none';
-            // actorPage.classList.add('active');
-            // d = 'actorPage'
-
-            // history.pushState({ id: '' }, '', '' + 'actor-page');
-
-
-            // button.addEventListener('click', () => {
-
-
-
-            //     movieInfo.style.display = 'none'
-
-
-            //     actorPage.classList.remove('active');
-            //     moviePage.classList.add('active');
-            //     d = 'moviePage'
-            //     history.pushState({ id: '' }, '', '' + 'movie-page');
-
-
-
-
-            // });
-
-
-
-
-
-
-            // for (i in data.results[0].known_for) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //     let img2 = document.createElement('img');
-            //     img2.src = poster + data.results[0].known_for[i].poster_path;
-            //     document.getElementById('lol2').appendChild(img2);
-
-            //     let a = document.createElement('a');
-            //     a.textContent = data.results[0].known_for[i].title;
-            //     document.getElementById('lol2').appendChild(a)
-
-            //     a.addEventListener('click', () => {
-            //         movieInfo.style.display = 'inline'
-            //         moviePage.classList.remove('active');
-            //         moviePage.style.display = 'none'
-            //         movieInfo.classList.add('active');
-            //         history.pushState({ id: '' }, '', '' + 'movie-info');
-            //         d = 'movieInfo'
-
-
-
-
-
-            //     });
-
-            //     a.href = '#';
-
-            //     let img3 = document.createElement('img');
-            //     img3.src = poster + data.results[0].known_for[i].poster_path;
-            //     document.getElementById('movie-info').appendChild(img3);
-
-
-            //     let p2 = document.createElement('p')
-            //     p2.textContent = data.results[0].known_for[i].name;
-            //     document.getElementById('movie-info').appendChild(p2)
-
-            //     let p3 = document.createElement('p')
-            //     p3.textContent = "DESCRIPTION: " + data.results[0].known_for[i].overview;
-            //     document.getElementById('movie-info').appendChild(p3)
-
-            //     let p4 = document.createElement('p')
-            //     p4.textContent = "RELEASE DATE: " + data.results[0].known_for[i].release_date;
-            //     document.getElementById('movie-info').appendChild(p4)
-
-
-
-
-
-
-
-
-            // }
 
 
 
@@ -426,6 +255,6 @@ function myFunction() {
 
 
 function hello() {
-    history.pushState({ id: '' }, '', '' + '/');
+    history.pushState({ id: '' }, '', '' + '/Movie-Api/search-page');
     location.reload()
 }
