@@ -255,6 +255,6 @@ function myFunction() {
 
 
 function hello() {
-    history.pushState({ id: '' }, '', '' + '/Movie-Api/search-page');
+    history.pushState({ id: '' }, '', '' + '/Movie-Api/');
     location.reload()
 }
